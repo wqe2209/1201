@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캠핑장</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/tb.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+
+
+  <script>
+    $(function(){
+    $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 1100,
+    responsive:false
+     });
+});
+  </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">우리캠핑장</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="https://www.weather.go.kr/w/index.do" target="_blank">기상청</span></a></li>
+              <li class="active"><a href="tubu.html" target="_blank">밤하늘 영상 보기</span></a></li>
+             
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <div class="banner">
+        <div class="bxslider">
+            <div><img src="img/camping_banner1.jpg" title="캠핑중인 가족" width="1300px" height="300px"></div>
+            <div><img src="img/camping2.jpg" title="야외캠핑중" width="1300px"height="300px"></div>
+        </div>
+    </div>
+    <div class="content_wrap">
+        <div class="content">
+            <ul class="tab_menu">
+                <li data-tab="notice" class="tab on">공지사항</li>
+            </ul>
+            <ul class="tab_content notice">
+                <li><a href="#none"><p>2023 새해맞이 예약 오픈 안내</p><span>2022-12-01</span></a></li>
+                <li><a href="#none"><p>2022 크리스마스 예약 이벤트</p><span>2022-11-22</span></a></li>
+                <li><a href="#none"><p>2023년 약관 변경 안내</p><span>2022-11-21</span></a></li>
+                <li><a href="#none"><p>11월 한달 특가 이벤트</p><span>2022-11-04</span></a></li>
+            </ul>
+            <li data-tab="notice" class="tab on">기타</li>
+            </ul>
+            <ul class="tab_content notice">
+                <li><img class="svgimg" src="img/won_icon.svg" width="30px"height="30px"<p>입금하기</p></a></li>
+                <li><img class="svgimg" src="img/calender.svg"width="30px"height="30px"><p>예약하기</p></img></li>
+            </ul>
+         </div>
+         <div class="bodywrap">
+            <div class="imgslide">
+                <a href="#">
+                    <img src="img/imgslide1.jpg" width="500px" height="200px" alt="이미지 1">
+                </a>
+                <a href="#">
+                    <img src="img/imgslide2.jpg"width="500px" height="200px" alt="이미지 2">
+                </a>
+                <a href="#">
+                    <img src="img/imgslide3.jpg"width="500px" height="200px" alt="이미지 3">
+                </a>
+            </div>
+
+    </div>
+    <footer class="footer_box">
+        <div class="down_logo">
+            <span>
+               상호 : 우리캠핑장<br>
+               사업자 : 이금희<br>
+               주소 : 강원도 인제시 인제읍 군월리 254-5<br>
+               사업자 등록 번호 : 221-42347-92346<br>
+               예약 전화 : 033-264-7554
+            </span>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    list-style: none;
+}
+
+.img{
+    height: 100px
+}
+
+.content_wrap{
+    height: 500px;
+    width: 1300px;
+    font-size: 12px;
+}
+
+.notice :hover{
+    font-family: 'Noto Serif KR', serif;
+}
+
+.svgimg {
+    float: right;
+    
+}
+
+footer{
+    margin-top: 20%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.bxslider{
+    margin-left: 10%;
+}
+
+
+.imgslide{
+    /* 이미지 슬라이드 높이 */
+    height: 200px;
+    /* 이미지 슬라이드 너비 */
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgslide > a{
+    display: block;
+    position: absolute;
+}
